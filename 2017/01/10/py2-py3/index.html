@@ -68,7 +68,7 @@
 
 
 
-  <meta name="keywords" content="我,">
+  <meta name="keywords" content="Python2,Python3,">
 
 
 
@@ -79,15 +79,18 @@
 
 
 
-<meta name="keywords" content="我">
+<meta name="description" content="Python2与Python3中的扩展 这里只是列出部分变化，并不对其用法进行详细说明   Python3.0中的print函数 Python3.0中的nonlocal x, y语句 Python2.6和Python3.0中的str.format方法 Python3.0中的字符串类型：str用于Unicode文本，bytes用于二进制数据 Python2.6和Python3.0中的类装饰器：@pr">
+<meta name="keywords" content="Python2,Python3">
 <meta property="og:type" content="article">
-<meta property="og:title" content="我与互联网">
-<meta property="og:url" content="http://yoursite.com/2018/11/09/i-internet/index.html">
+<meta property="og:title" content="从Python2到Python3">
+<meta property="og:url" content="http://yoursite.com/2017/01/10/py2-py3/index.html">
 <meta property="og:site_name" content="ScottPeng&#39;s Blog">
+<meta property="og:description" content="Python2与Python3中的扩展 这里只是列出部分变化，并不对其用法进行详细说明   Python3.0中的print函数 Python3.0中的nonlocal x, y语句 Python2.6和Python3.0中的str.format方法 Python3.0中的字符串类型：str用于Unicode文本，bytes用于二进制数据 Python2.6和Python3.0中的类装饰器：@pr">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-11-09T06:20:53.610Z">
+<meta property="og:updated_time" content="2018-11-10T07:05:49.129Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="我与互联网">
+<meta name="twitter:title" content="从Python2到Python3">
+<meta name="twitter:description" content="Python2与Python3中的扩展 这里只是列出部分变化，并不对其用法进行详细说明   Python3.0中的print函数 Python3.0中的nonlocal x, y语句 Python2.6和Python3.0中的str.format方法 Python3.0中的字符串类型：str用于Unicode文本，bytes用于二进制数据 Python2.6和Python3.0中的类装饰器：@pr">
 
 
 
@@ -117,13 +120,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/2018/11/09/i-internet/">
+  <link rel="canonical" href="http://yoursite.com/2017/01/10/py2-py3/">
 
 
 
 
 
-  <title>我与互联网 | ScottPeng's Blog</title>
+  <title>从Python2到Python3 | ScottPeng's Blog</title>
   
 
 
@@ -292,12 +295,12 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/11/09/i-internet/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/01/10/py2-py3/">
 
     <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Scott Peng">
       <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="image" content="https://avatars2.githubusercontent.com/u/22169515?s=460&v=4">
     </span>
 
     <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
@@ -309,7 +312,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">我与互联网</h1>
+          <h1 class="post-title" itemprop="name headline">从Python2到Python3</h1>
         
 
         <div class="post-meta">
@@ -321,8 +324,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-11-09T14:19:25+08:00">
-                2018-11-09
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-01-10T14:07:03+08:00">
+                2017-01-10
               </time>
             
 
@@ -344,8 +347,8 @@
               
               
                 <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing">
-                  <a href="/categories/随笔/" itemprop="url" rel="index">
-                    <span itemprop="name">随笔</span>
+                  <a href="/categories/Python/" itemprop="url" rel="index">
+                    <span itemprop="name">Python</span>
                   </a>
                 </span>
 
@@ -381,7 +384,210 @@
       
 
       
-        
+        <h4 id="Python2与Python3中的扩展"><a href="#Python2与Python3中的扩展" class="headerlink" title="Python2与Python3中的扩展"></a>Python2与Python3中的扩展</h4><blockquote>
+<p>这里只是列出部分变化，并不对其用法进行详细说明</p>
+</blockquote>
+<ul>
+<li>Python3.0中的print函数</li>
+<li>Python3.0中的nonlocal x, y语句</li>
+<li>Python2.6和Python3.0中的str.format方法</li>
+<li>Python3.0中的字符串类型：str用于Unicode文本，bytes用于二进制数据</li>
+<li>Python2.6和Python3.0中的类装饰器：@private(‘age’)</li>
+<li>Python3.0中的新的迭代器：range、map、zip</li>
+<li>Python3.0中的字典视图：D.keys、D.values、D.items</li>
+<li>Python3.0中的除法运算：余数、/和//</li>
+<li>Python3.0中的集合常量：{a, b, c}</li>
+<li>Python3.0中的集合解析：{x**2 for x in seq}</li>
+<li>Python3.0中的字典解析：{x: x**2 for x in seq}</li>
+<li>Python2.6和Python3.0中的二进制位字符串支持：0b0101，bin(I)</li>
+<li>Python3.0中的函数注释：def f(a:99, b:str)  -&gt; int</li>
+<li>Python3.0中的Keyword-only参数：def f(a, *b, c, **d)</li>
+<li>Python3.0中的扩展的序列分解：a，*b = seq</li>
+<li>Python3.0中的可用的针对包的导入语法：from</li>
+<li>Python2.6和Python3.0中可用的环境管理器：with/as</li>
+<li>Python3.0中的异常语法修改：raise、except/as、superclass</li>
+<li>Python3.0中的异常链：raise e2 from e1</li>
+<li>Python2.6和Python3.0中的保留字的变化</li>
+<li>Python3.0中的新式类的取消</li>
+<li>Python2.6和Python3.0中的特性装饰符：@property</li>
+<li>Python2.6和Python3.0中的描述符</li>
+<li>Python2.6和Python3.0中的抽象基类</li>
+</ul>
+<h4 id="Python3-0语言中的删除"><a href="#Python3-0语言中的删除" class="headerlink" title="Python3.0语言中的删除"></a>Python3.0语言中的删除</h4><table>
+<thead>
+<tr>
+<th style="text-align:center"><strong>删除</strong></th>
+<th style="text-align:center">替代</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">class MyException:</td>
+<td style="text-align:center">class MyException(Exception)</td>
+</tr>
+<tr>
+<td style="text-align:center">exceptions module</td>
+<td style="text-align:center">内置作用域，库手册</td>
+</tr>
+<tr>
+<td style="text-align:center">thread、Queue modules</td>
+<td style="text-align:center">_thread, queue(二者都改名了)</td>
+</tr>
+<tr>
+<td style="text-align:center">anydbm module</td>
+<td style="text-align:center">dbm(改名了)</td>
+</tr>
+<tr>
+<td style="text-align:center">cPickle module</td>
+<td style="text-align:center">_pickle(改名了，自动使用)</td>
+</tr>
+<tr>
+<td style="text-align:center">os.popen2/3/4</td>
+<td style="text-align:center">subprocess.Popen(os.popen保留)</td>
+</tr>
+<tr>
+<td style="text-align:center">基于字符串的异常</td>
+<td style="text-align:center">基于类的异常（Python2.6中也是如此）</td>
+</tr>
+<tr>
+<td style="text-align:center">字符串模块函数</td>
+<td style="text-align:center">字符串对象方法</td>
+</tr>
+<tr>
+<td style="text-align:center">未绑定方法</td>
+<td style="text-align:center">函数（通过实例调用静态方法）</td>
+</tr>
+<tr>
+<td style="text-align:center">混合类型比较、排序</td>
+<td style="text-align:center">非数字的混合类型比较是错误</td>
+</tr>
+<tr>
+<td style="text-align:center">pint &gt;&gt; F, x, y</td>
+<td style="text-align:center">print(x, y file=F)</td>
+</tr>
+<tr>
+<td style="text-align:center">print x, y,</td>
+<td style="text-align:center">print(x, y end=’ ‘)</td>
+</tr>
+<tr>
+<td style="text-align:center">u’ccc’</td>
+<td style="text-align:center">‘ccc’</td>
+</tr>
+<tr>
+<td style="text-align:center">‘bbb’ for byte strings b ‘bbb’</td>
+<td style="text-align:center">b’bbb’</td>
+</tr>
+<tr>
+<td style="text-align:center">raise E, V</td>
+<td style="text-align:center">raise E(V)</td>
+</tr>
+<tr>
+<td style="text-align:center">except E, X</td>
+<td style="text-align:center">except E as X:</td>
+</tr>
+<tr>
+<td style="text-align:center">def f((a, b)):</td>
+<td style="text-align:center">def f(x): (a, b) = x</td>
+</tr>
+<tr>
+<td style="text-align:center">file.xreadlines</td>
+<td style="text-align:center">for line in file: (or X=iter(file))</td>
+</tr>
+<tr>
+<td style="text-align:center">D.keys()等</td>
+<td style="text-align:center">list(D.keys())(字典视图)</td>
+</tr>
+<tr>
+<td style="text-align:center">map(), range(), etc.</td>
+<td style="text-align:center">list(map()), list(range())</td>
+</tr>
+<tr>
+<td style="text-align:center">as lists</td>
+<td style="text-align:center">(内置函数)</td>
+</tr>
+<tr>
+<td style="text-align:center">map(None, …)</td>
+<td style="text-align:center">zip(或手动代码来补充结果)</td>
+</tr>
+<tr>
+<td style="text-align:center">X = D.keys(); X.sort()</td>
+<td style="text-align:center">sorted(D) (或list(D.keys()))</td>
+</tr>
+<tr>
+<td style="text-align:center">cmp(x, y)</td>
+<td style="text-align:center">(x &gt; y) - (x &lt; y)</td>
+</tr>
+<tr>
+<td style="text-align:center"><code>X.__cmp__(y)</code></td>
+<td style="text-align:center"><code>__lt__、__gt__、、__eq__</code>等</td>
+</tr>
+<tr>
+<td style="text-align:center"><code>X__nonzero__</code></td>
+<td style="text-align:center"><code>X__bool__</code></td>
+</tr>
+<tr>
+<td style="text-align:center"><code>X.__hex__</code> ，<code>X.__oct__</code></td>
+<td style="text-align:center"><code>X.__index__</code></td>
+</tr>
+<tr>
+<td style="text-align:center">排序比较函数</td>
+<td style="text-align:center">使用key=transform或reverse=True</td>
+</tr>
+<tr>
+<td style="text-align:center">Dictionary &lt;, &gt;, &lt;=, &gt;=</td>
+<td style="text-align:center">Compare sorted(D.items())(或循环代码)</td>
+</tr>
+<tr>
+<td style="text-align:center">types.ListType</td>
+<td style="text-align:center">list(type只用于非内建名称)</td>
+</tr>
+<tr>
+<td style="text-align:center"><code>__metaclass__ = M</code></td>
+<td style="text-align:center">class C(metaclass=M):</td>
+</tr>
+<tr>
+<td style="text-align:center"><code>__builtin__</code></td>
+<td style="text-align:center">builtins(重命名)</td>
+</tr>
+<tr>
+<td style="text-align:center">Tkinter</td>
+<td style="text-align:center">tkinter(重命名)</td>
+</tr>
+<tr>
+<td style="text-align:center">sys.exc_type、exc_value</td>
+<td style="text-align:center">sys.exc_info()[0], [1]</td>
+</tr>
+<tr>
+<td style="text-align:center">function.func_code</td>
+<td style="text-align:center"><code>function.__code__</code></td>
+</tr>
+<tr>
+<td style="text-align:center">由内置函数运行的</td>
+<td style="text-align:center">在包装类中重定义<code>__X__</code>方法</td>
+</tr>
+<tr>
+<td style="text-align:center"><code>__getattr__</code></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center">-t,<code>__tt</code>命令行切换</td>
+<td style="text-align:center">不一致地使用制表符/空格总是一个错误</td>
+</tr>
+<tr>
+<td style="text-align:center">一个函数中的from… *</td>
+<td style="text-align:center">只能够出现在一个文件的顶层</td>
+</tr>
+<tr>
+<td style="text-align:center">导入模块，在同一包中</td>
+<td style="text-align:center">from . import mod . 包相关的形式</td>
+</tr>
+<tr>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+</tr>
+</tbody>
+</table>
+
       
     </div>
     
@@ -398,7 +604,9 @@
       
         <div class="post-tags">
           
-            <a href="/tags/我/" rel="tag"># 我</a>
+            <a href="/tags/Python2/" rel="tag"># Python2</a>
+          
+            <a href="/tags/Python3/" rel="tag"># Python3</a>
           
         </div>
       
@@ -407,22 +615,6 @@
       
       
 
-      
-        <div class="post-nav">
-          <div class="post-nav-next post-nav-item">
-            
-              <a href="/2018/11/09/hello-world/" rel="next" title="Hello World">
-                <i class="fa fa-chevron-left"></i> Hello World
-              </a>
-            
-          </div>
-
-          <span class="post-nav-divider"></span>
-
-          <div class="post-nav-prev post-nav-item">
-            
-          </div>
-        </div>
       
 
       
@@ -471,10 +663,21 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+            
+              <img class="site-author-image" itemprop="image" src="https://avatars2.githubusercontent.com/u/22169515?s=460&v=4" alt="Scott Peng">
             
               <p class="site-author-name" itemprop="name">Scott Peng</p>
               <p class="site-description motion-element" itemprop="description"></p>
@@ -487,7 +690,7 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">2</span>
+                  <span class="site-state-item-count">1</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
@@ -509,7 +712,7 @@
               
               <div class="site-state-item site-state-tags">
                 <a href="/tags/index.html">
-                  <span class="site-state-item-count">1</span>
+                  <span class="site-state-item-count">2</span>
                   <span class="site-state-item-name">标签</span>
                 </a>
               </div>
@@ -542,6 +745,22 @@
         </div>
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#Python2与Python3中的扩展"><span class="nav-number">1.</span> <span class="nav-text">Python2与Python3中的扩展</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Python3-0语言中的删除"><span class="nav-number">2.</span> <span class="nav-text">Python3.0语言中的删除</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       

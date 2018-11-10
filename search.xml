@@ -1,19 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[我与互联网]]></title>
-    <url>%2F2018%2F11%2F09%2Fi-internet%2F</url>
-    <content type="text"></content>
+    <title><![CDATA[从Python2到Python3]]></title>
+    <url>%2F2017%2F01%2F10%2Fpy2-py3%2F</url>
+    <content type="text"><![CDATA[Python2与Python3中的扩展 这里只是列出部分变化，并不对其用法进行详细说明 Python3.0中的print函数 Python3.0中的nonlocal x, y语句 Python2.6和Python3.0中的str.format方法 Python3.0中的字符串类型：str用于Unicode文本，bytes用于二进制数据 Python2.6和Python3.0中的类装饰器：@private(‘age’) Python3.0中的新的迭代器：range、map、zip Python3.0中的字典视图：D.keys、D.values、D.items Python3.0中的除法运算：余数、/和// Python3.0中的集合常量：{a, b, c} Python3.0中的集合解析：{x**2 for x in seq} Python3.0中的字典解析：{x: x**2 for x in seq} Python2.6和Python3.0中的二进制位字符串支持：0b0101，bin(I) Python3.0中的函数注释：def f(a:99, b:str) -&gt; int Python3.0中的Keyword-only参数：def f(a, *b, c, **d) Python3.0中的扩展的序列分解：a，*b = seq Python3.0中的可用的针对包的导入语法：from Python2.6和Python3.0中可用的环境管理器：with/as Python3.0中的异常语法修改：raise、except/as、superclass Python3.0中的异常链：raise e2 from e1 Python2.6和Python3.0中的保留字的变化 Python3.0中的新式类的取消 Python2.6和Python3.0中的特性装饰符：@property Python2.6和Python3.0中的描述符 Python2.6和Python3.0中的抽象基类 Python3.0语言中的删除 删除 替代 class MyException: class MyException(Exception) exceptions module 内置作用域，库手册 thread、Queue modules _thread, queue(二者都改名了) anydbm module dbm(改名了) cPickle module _pickle(改名了，自动使用) os.popen2/3/4 subprocess.Popen(os.popen保留) 基于字符串的异常 基于类的异常（Python2.6中也是如此） 字符串模块函数 字符串对象方法 未绑定方法 函数（通过实例调用静态方法） 混合类型比较、排序 非数字的混合类型比较是错误 pint &gt;&gt; F, x, y print(x, y file=F) print x, y, print(x, y end=’ ‘) u’ccc’ ‘ccc’ ‘bbb’ for byte strings b ‘bbb’ b’bbb’ raise E, V raise E(V) except E, X except E as X: def f((a, b)): def f(x): (a, b) = x file.xreadlines for line in file: (or X=iter(file)) D.keys()等 list(D.keys())(字典视图) map(), range(), etc. list(map()), list(range()) as lists (内置函数) map(None, …) zip(或手动代码来补充结果) X = D.keys(); X.sort() sorted(D) (或list(D.keys())) cmp(x, y) (x &gt; y) - (x &lt; y) X.__cmp__(y) __lt__、__gt__、、__eq__等 X__nonzero__ X__bool__ X.__hex__ ，X.__oct__ X.__index__ 排序比较函数 使用key=transform或reverse=True Dictionary &lt;, &gt;, &lt;=, &gt;= Compare sorted(D.items())(或循环代码) types.ListType list(type只用于非内建名称) __metaclass__ = M class C(metaclass=M): __builtin__ builtins(重命名) Tkinter tkinter(重命名) sys.exc_type、exc_value sys.exc_info()[0], [1] function.func_code function.__code__ 由内置函数运行的 在包装类中重定义__X__方法 __getattr__ -t,__tt命令行切换 不一致地使用制表符/空格总是一个错误 一个函数中的from… * 只能够出现在一个文件的顶层 导入模块，在同一包中 from . import mod . 包相关的形式]]></content>
       <categories>
-        <category>随笔</category>
+        <category>Python</category>
       </categories>
       <tags>
-        <tag>我</tag>
+        <tag>Python2</tag>
+        <tag>Python3</tag>
       </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[Hello World]]></title>
-    <url>%2F2018%2F11%2F09%2Fhello-world%2F</url>
-    <content type="text"><![CDATA[从今天起正式入驻GitHub，开始我的博客之旅！希望能坚持下去…]]></content>
   </entry>
 </search>
