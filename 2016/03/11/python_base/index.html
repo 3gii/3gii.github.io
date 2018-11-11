@@ -68,7 +68,7 @@
 
 
 
-  <meta name="keywords" content="Python数据类型,Python,">
+  <meta name="keywords" content="Python,Python基础,">
 
 
 
@@ -79,18 +79,18 @@
 
 
 
-<meta name="description" content="Python中的数字 在Python2中整型数据，分整型和长整型，而在Python3中只有整型  Python中的进制 整型可编写为十进制、二进制、八进制以及十六进制   十六进制以0x或0X开头，后面跟十六进制的数字0-9和A-F，不区分大小写 八进制以0o或0O开头，后面接0-7，在Python2.6及更早的版本中，八进制常量也可以写成前面只有一个0的形式，但在Python3中需要采用0o的形">
-<meta name="keywords" content="Python数据类型,Python">
+<meta name="description" content="1. Python中的编码Python2中默认的编码格式是ASCII格式，在读取中文时会报错，解决方案 在文件开头加入# -*- coding: utf-8 -*-或者#coding=utf-8 注意：第二种方式=两边不能有空格  在Pycharm里设置文件的编码 file&amp;gt;Settings&amp;gt;Editor&amp;gt;File encodings  2. 设置文件可执行 文件开头添加#!/u">
+<meta name="keywords" content="Python,Python基础">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Python中的数字">
-<meta property="og:url" content="http://yoursite.com/2017/01/11/number/index.html">
+<meta property="og:title" content="Python中的基础">
+<meta property="og:url" content="http://yoursite.com/2016/03/11/python_base/index.html">
 <meta property="og:site_name" content="ScottPeng&#39;s Blog">
-<meta property="og:description" content="Python中的数字 在Python2中整型数据，分整型和长整型，而在Python3中只有整型  Python中的进制 整型可编写为十进制、二进制、八进制以及十六进制   十六进制以0x或0X开头，后面跟十六进制的数字0-9和A-F，不区分大小写 八进制以0o或0O开头，后面接0-7，在Python2.6及更早的版本中，八进制常量也可以写成前面只有一个0的形式，但在Python3中需要采用0o的形">
+<meta property="og:description" content="1. Python中的编码Python2中默认的编码格式是ASCII格式，在读取中文时会报错，解决方案 在文件开头加入# -*- coding: utf-8 -*-或者#coding=utf-8 注意：第二种方式=两边不能有空格  在Pycharm里设置文件的编码 file&amp;gt;Settings&amp;gt;Editor&amp;gt;File encodings  2. 设置文件可执行 文件开头添加#!/u">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-11-11T06:37:23.683Z">
+<meta property="og:updated_time" content="2018-11-11T06:37:17.413Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Python中的数字">
-<meta name="twitter:description" content="Python中的数字 在Python2中整型数据，分整型和长整型，而在Python3中只有整型  Python中的进制 整型可编写为十进制、二进制、八进制以及十六进制   十六进制以0x或0X开头，后面跟十六进制的数字0-9和A-F，不区分大小写 八进制以0o或0O开头，后面接0-7，在Python2.6及更早的版本中，八进制常量也可以写成前面只有一个0的形式，但在Python3中需要采用0o的形">
+<meta name="twitter:title" content="Python中的基础">
+<meta name="twitter:description" content="1. Python中的编码Python2中默认的编码格式是ASCII格式，在读取中文时会报错，解决方案 在文件开头加入# -*- coding: utf-8 -*-或者#coding=utf-8 注意：第二种方式=两边不能有空格  在Pycharm里设置文件的编码 file&amp;gt;Settings&amp;gt;Editor&amp;gt;File encodings  2. 设置文件可执行 文件开头添加#!/u">
 
 
 
@@ -120,13 +120,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/2017/01/11/number/">
+  <link rel="canonical" href="http://yoursite.com/2016/03/11/python_base/">
 
 
 
 
 
-  <title>Python中的数字 | ScottPeng's Blog</title>
+  <title>Python中的基础 | ScottPeng's Blog</title>
   
 
 
@@ -295,7 +295,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/01/11/number/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2016/03/11/python_base/">
 
     <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Scott Peng">
@@ -312,7 +312,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">Python中的数字</h1>
+          <h1 class="post-title" itemprop="name headline">Python中的基础</h1>
         
 
         <div class="post-meta">
@@ -324,8 +324,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-01-11T13:12:49+08:00">
-                2017-01-11
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2016-03-11T09:12:49+08:00">
+                2016-03-11
               </time>
             
 
@@ -384,46 +384,749 @@
       
 
       
-        <h4 id="Python中的数字"><a href="#Python中的数字" class="headerlink" title="Python中的数字"></a>Python中的数字</h4><blockquote>
-<p>在Python2中整型数据，分整型和长整型，而在Python3中只有整型</p>
-</blockquote>
-<h4 id="Python中的进制"><a href="#Python中的进制" class="headerlink" title="Python中的进制"></a>Python中的进制</h4><blockquote>
-<p>整型可编写为十进制、二进制、八进制以及十六进制</p>
-</blockquote>
-<ul>
-<li>十六进制以0x或0X开头，后面跟十六进制的数字0-9和A-F，不区分大小写</li>
-<li>八进制以0o或0O开头，后面接0-7，在Python2.6及更早的版本中，八进制常量也可以写成前面只有一个0的形式，但在Python3中需要采用0o的形式</li>
-<li>Python2.6和Python3.0中的新的二进制常量，以0b或0B开头</li>
-</ul>
+        <h4 id="1-Python中的编码"><a href="#1-Python中的编码" class="headerlink" title="1. Python中的编码"></a>1. Python中的编码</h4><p>Python2中默认的编码格式是ASCII格式，在读取中文时会报错，解决方案</p>
+<p>在文件开头加入<code># -*- coding: utf-8 -*-</code>或者<code>#coding=utf-8</code></p>
+<p>注意：第二种方式<code>=</code>两边不能有空格</p>
 <blockquote>
-<p>注意：所有的这些常量在程序代码中都产生一个整数对象。它们仅仅是特定值得不同语法表示而已，内置函数hex(I)、oct(I)和bin(I)把一个整型转换为这三种进制表示的字符串，int(str, base) 根据每个给定的进制把一个运行时字符串转换为一个整数。</p>
+<p>在Pycharm里设置文件的编码 file&gt;Settings&gt;Editor&gt;File encodings</p>
 </blockquote>
-<h4 id="关于除法"><a href="#关于除法" class="headerlink" title="关于除法"></a>关于除法</h4><blockquote>
-<p>在Python2中<code>/</code>表示传统除法，如果两个操作数都是整数的话，执行截断整数除法即Floor除法。否则执行浮点除法（正真除法）</p>
-<p>在Python3中<code>/</code>总是执行正真除法，<code>//</code>执行Floor除法</p>
-</blockquote>
-<ul>
-<li>注意：<code>//</code>操作符通常叫做截断除法，但是，更准确的说法是floor除法，它把结果向下截断到下层，即真正结果之下的最近的整数，其直接效果是向下舍入，并不是严格的截断。区别如下</li>
+<h4 id="2-设置文件可执行"><a href="#2-设置文件可执行" class="headerlink" title="2. 设置文件可执行"></a>2. 设置文件可执行</h4><ul>
+<li>文件开头添加<code>#!/usr/bin/pythn</code></li>
+<li>文件开头添加<code>#!/usr/bin/env python</code></li>
 </ul>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> math</span><br><span class="line">math.floor(<span class="number">2.5</span>)  <span class="comment"># 2</span></span><br><span class="line">math.floor(<span class="number">-2.5</span>) <span class="comment"># -3</span></span><br><span class="line">math.trunc(<span class="number">2.5</span>) <span class="comment"># 2</span></span><br><span class="line">math.trunc(<span class="number">-2.5</span>) <span class="comment"># -2</span></span><br></pre></td></tr></table></figure>
+<h4 id="3-语法规则"><a href="#3-语法规则" class="headerlink" title="3. 语法规则"></a>3. 语法规则</h4><ul>
+<li>在同一行写多条语句时用<code>;</code>隔开</li>
+</ul>
+<h4 id="4-数据类型"><a href="#4-数据类型" class="headerlink" title="4. 数据类型"></a>4. 数据类型</h4><p><strong>1) 数字类型</strong></p>
 <ul>
-<li><p>在Python3中</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span>(<span class="number">5</span>/<span class="number">2</span>), (<span class="number">5</span>/<span class="number">2.0</span>), (<span class="number">5</span>/<span class="number">-2.0</span>), (<span class="number">5</span>/<span class="number">-2</span>)</span><br><span class="line">(<span class="number">2.5</span>, <span class="number">2.5</span>, <span class="number">-2.5</span>, <span class="number">-2.5</span>)</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>(<span class="number">5</span>//<span class="number">2</span>), (<span class="number">5</span>//<span class="number">2.0</span>), (<span class="number">5</span>//<span class="number">-2.0</span>), (<span class="number">5</span>//<span class="number">-2</span>)</span><br><span class="line">(<span class="number">2</span>, <span class="number">2.0</span>, <span class="number">-3.0</span>, <span class="number">-3</span>)</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>(<span class="number">9</span>/<span class="number">3</span>), (<span class="number">9.0</span>/<span class="number">3</span>), (<span class="number">9</span>//<span class="number">3</span>), (<span class="number">9</span>//<span class="number">3.0</span>)</span><br><span class="line">(<span class="number">3</span>, <span class="number">3.0</span>, <span class="number">3</span>, <span class="number">3.0</span>)</span><br></pre></td></tr></table></figure>
+<li><p>int</p>
+<blockquote>
+<p>在Python2.2以后的版本中，int类型数据溢出后会自动转为long类型。在Python3中long类型被移除，用int代替</p>
+</blockquote>
 </li>
-<li><p>在Python2中</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span>(<span class="number">5</span>/<span class="number">2</span>), (<span class="number">5</span>/<span class="number">2.0</span>), (<span class="number">5</span>/<span class="number">-2.0</span>), (<span class="number">5</span>/<span class="number">-2</span>)</span><br><span class="line">(<span class="number">2.5</span>, <span class="number">2.5</span>, <span class="number">-2.5</span>, <span class="number">-3</span>)</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>(<span class="number">5</span>//<span class="number">2</span>), (<span class="number">5</span>//<span class="number">2.0</span>), (<span class="number">5</span>//<span class="number">-2.0</span>), (<span class="number">5</span>//<span class="number">-2</span>)</span><br><span class="line">(<span class="number">2</span>, <span class="number">2.0</span>, <span class="number">-3.0</span>, <span class="number">-3</span>)</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>(<span class="number">9</span>/<span class="number">3</span>), (<span class="number">9.0</span>/<span class="number">3</span>), (<span class="number">9</span>//<span class="number">3</span>), (<span class="number">9</span>//<span class="number">3.0</span>)</span><br><span class="line">(<span class="number">3</span>, <span class="number">3.0</span>, <span class="number">3</span>, <span class="number">3.0</span>)</span><br></pre></td></tr></table></figure>
+<li><p>float</p>
+</li>
+<li>complex<br><code>3.14+5j</code></li>
+<li><p>bool</p>
+<blockquote>
+<p>Python2中没有bool类型，它用数字0表示False，用1表示True。在Python3中，True和False被定义成关键字，但值依然是1和0，可以和数字相加。</p>
+</blockquote>
 </li>
 </ul>
-<h4 id="内置数学工具"><a href="#内置数学工具" class="headerlink" title="内置数学工具"></a>内置数学工具</h4><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 省略结果</span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span><span class="keyword">import</span> math</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>math.pi, math.e</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>math.sin(<span class="number">2</span>*math.pi/<span class="number">180</span>)</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>math.sqrt(<span class="number">144</span>)</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>pow(<span class="number">2</span>, <span class="number">4</span>) <span class="comment"># 2 ** 4</span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>abs(<span class="number">-42.0</span>), sum((<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>))</span><br><span class="line"></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span><span class="keyword">import</span> random</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>random.randow()</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>random.randint(<span class="number">1</span>, <span class="number">10</span>)</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>random.choice([<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>])</span><br></pre></td></tr></table></figure>
+<p><strong>2) 非数字类型</strong> </p>
+<ul>
+<li><p>str</p>
+</li>
+<li><p>tuple</p>
+</li>
+<li><p>list</p>
+</li>
+<li><p>dict</p>
 <blockquote>
-<p>Random模块很实用，在游戏中的发牌，在演示GUI中的随机图片、进行统计仿真等都需要Random模块</p>
+<p>字典的键必须唯一，且是不可变类型。字典是无序的</p>
 </blockquote>
-<h4 id="设置全局精度"><a href="#设置全局精度" class="headerlink" title="设置全局精度"></a>设置全局精度</h4><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span><span class="keyword">import</span> decimal</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>decimal.Decimal(<span class="number">1</span>)/decimal.Decimal(<span class="number">7</span>)</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>decimal.getcontext().prec = <span class="number">2</span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>pay = decimal.Decimal(str(<span class="number">1999</span> + <span class="number">1.33</span>))</span><br></pre></td></tr></table></figure>
-<h4 id="小数上下文管理器"><a href="#小数上下文管理器" class="headerlink" title="小数上下文管理器"></a>小数上下文管理器</h4><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span><span class="keyword">import</span> decimal</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>decimal.Decimal(<span class="string">'1.00'</span>) / decimal.Decimal(<span class="string">'3.00'</span>)</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span><span class="keyword">with</span> decimal.localcontext():</span><br><span class="line">    	ctx.prec = <span class="number">2</span></span><br><span class="line">        decimal.Decimal(<span class="string">'1.00'</span>) / decimal.Decimal(<span class="string">'3.00'</span>)</span><br></pre></td></tr></table></figure>
-<h4 id="分数类型"><a href="#分数类型" class="headerlink" title="分数类型"></a>分数类型</h4><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span><span class="keyword">from</span> fractions <span class="keyword">import</span> Fraction</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>x = Fraction(<span class="number">1</span>, <span class="number">3</span>) <span class="comment"># 1/3</span></span><br></pre></td></tr></table></figure>
-<blockquote>
-<p>关于其中的精度问题以后做讨论</p>
+</li>
+<li><p>set</p>
+</li>
+</ul>
+<p><strong>3) 判断数据类型</strong> </p>
+<ul>
+<li><p>type()</p>
+<p>不会认为子类是一种父类类型</p>
+</li>
+<li><p>isinstance()</p>
+<p>会认为子类是一种父类类型</p>
+</li>
+</ul>
+<p>####5. 运算符</p>
+<p><strong>1) 算术运算符</strong></p>
+<ul>
+<li>+</li>
+<li>-</li>
+<li>*</li>
+<li>/<br>真正的除法，非地板除</li>
+<li>%</li>
+</ul>
+<hr>
+<ul>
+<li>//<br>用于地板除</li>
+</ul>
+<p><strong>2) 比较运算符</strong></p>
+<ul>
+<li>==</li>
+<li>!=</li>
+<li>></li>
+<li>&lt;</li>
+<li>>=</li>
+<li>&lt;=</li>
+</ul>
+<p><strong>3) 赋值运算</strong></p>
+<ul>
+<li>=</li>
+<li>+=</li>
+<li>-=</li>
+<li>*=</li>
+<li>/=</li>
+<li>%=</li>
+<li>**=</li>
+<li>//=</li>
+</ul>
+<p><strong>4) 位运算符</strong></p>
+<ul>
+<li>&amp;</li>
+<li>|</li>
+<li>^</li>
+<li>~<br><code>~x</code>类似于<code>~x-1</code></li>
+<li>>&gt;</li>
+<li>&lt;&lt;</li>
+</ul>
+<p><strong>5) 逻辑运算符</strong></p>
+<ul>
+<li>and<br><code>x and y</code> 如果<code>x</code>为<code>False</code>, 返回<code>False</code>否则返回<code>y</code>的计算值</li>
+<li>or<br><code>x or y</code> 如果<code>x</code>为<code>True</code>, 返回<code>x</code>的值，否则返回<code>y</code>的计算值</li>
+<li>not</li>
+</ul>
+<p><strong>6) 成员运算符</strong></p>
+<ul>
+<li>in </li>
+<li>not in</li>
+</ul>
+<p><strong>7) 身份运算符</strong></p>
+<ul>
+<li><p>is<br><code>x is y</code>类似<code>id(x) == id(y)</code>如果引用的是同一个对象返回<code>True</code>,否则返回<code>False</code></p>
+</li>
+<li><p>not is</p>
+<p><code>x not is y</code>类似<code>id(x) != id(y)</code>如果引用的不是同一个对象返回<code>True</code>,否则返回<code>False</code></p>
+</li>
+<li><p>与<code>==</code>或<code>!=</code>的区别</p>
+<p><code>is</code>和<code>not is</code>判断的是两个变量引用对象，<code>==</code>和<code>!=</code>判断的是引用变量的值</p>
+</li>
+</ul>
+<p><strong>8) 运算符优先级</strong></p>
+<table>
+<thead>
+<tr>
+<th>运算符</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>**</td>
+<td>指数 (最高优先级)</td>
+</tr>
+<tr>
+<td>~ + -</td>
+<td>按位翻转, 一元加号和减号 (最后两个的方法名为 +@ 和 -@)</td>
+</tr>
+<tr>
+<td>* / % //</td>
+<td>乘，除，取模和取整除</td>
+</tr>
+<tr>
+<td>+ -</td>
+<td>加法减法</td>
+</tr>
+<tr>
+<td>&gt;&gt; &lt;&lt;</td>
+<td>右移，左移运算符</td>
+</tr>
+<tr>
+<td>&amp;</td>
+<td>位 ‘AND’</td>
+</tr>
+<tr>
+<td>^ \</td>
+<td></td>
+<td>位运算符</td>
+</tr>
+<tr>
+<td>&lt;= &lt; &gt; &gt;=</td>
+<td>比较运算符</td>
+</tr>
+<tr>
+<td>&lt;&gt; == !=</td>
+<td>等于运算符</td>
+</tr>
+<tr>
+<td>= %= /= //= -= += *= **=</td>
+<td>赋值运算符</td>
+</tr>
+<tr>
+<td>is is not</td>
+<td>身份运算符</td>
+</tr>
+<tr>
+<td>in not in</td>
+<td>成员运算符</td>
+</tr>
+<tr>
+<td>and or not</td>
+<td>逻辑运算符</td>
+</tr>
+</tbody>
+</table>
+<h4 id="6-数字-Number"><a href="#6-数字-Number" class="headerlink" title="6. 数字(Number)"></a>6. 数字(Number)</h4><p><strong>1) 常见数字类型举例</strong></p>
+<table>
+<thead>
+<tr>
+<th>int</th>
+<th>float</th>
+<th>complex</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>10</td>
+<td>0.0</td>
+<td>3.14j</td>
+</tr>
+<tr>
+<td>100</td>
+<td>15.20</td>
+<td>45.j</td>
+</tr>
+<tr>
+<td>-786</td>
+<td>-21.9</td>
+<td>9.322e-36j</td>
+</tr>
+<tr>
+<td>080</td>
+<td>32.3+e18</td>
+<td>.876j</td>
+</tr>
+<tr>
+<td>-0490</td>
+<td>-90.</td>
+<td>-.6545+0J</td>
+</tr>
+<tr>
+<td>-0x260</td>
+<td>-32.54e100</td>
+<td>3e+26J</td>
+</tr>
+<tr>
+<td>0x69</td>
+<td>70.2-E12</td>
+<td>4.53e-7j</td>
+</tr>
+</tbody>
+</table>
+<p><strong>2) 数字类型之间的转换</strong></p>
+<ul>
+<li>int(x)</li>
+<li>float(x)</li>
+<li>complex(x)<br>将<code>x</code>转到一个复数，实部为<code>x</code>，虚部为<code>0</code></li>
+<li>complex(x, y)<br>将<code>x</code>和<code>y</code>转换到一个复数，实部为<code>x</code>，虚部为<code>y</code>, <code>x</code>和<code>y</code>是数字表达式</li>
+</ul>
+<p><strong>3) 运算</strong></p>
+<ul>
+<li><p>//<br>得到的并不一定是整数，与分母和分子的数据类型有关系</p>
+</li>
+<li><p>在不同的机器上浮点数运算的结果可能不同</p>
+</li>
+<li>在交互模式中，最后被输出的表达式结果被赋值给变量<code>_</code></li>
+</ul>
+<p><strong>4) 随机数函数</strong></p>
+<table>
+<thead>
+<tr>
+<th>函数</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="http://www.runoob.com/python3/python3-func-number-choice.html" target="_blank" rel="noopener">choice(seq)</a></td>
+<td>从序列的元素中随机挑选一个元素，比如random.choice(range(10))，从0到9中随机挑选一个整数。</td>
+</tr>
+<tr>
+<td><a href="http://www.runoob.com/python3/python3-func-number-randrange.html" target="_blank" rel="noopener">randrange ([start,] stop [,step])</a></td>
+<td>从指定范围内，按指定基数递增的集合中获取一个随机数，基数缺省值为1</td>
+</tr>
+<tr>
+<td><a href="http://www.runoob.com/python3/python3-func-number-random.html" target="_blank" rel="noopener">random()</a></td>
+<td>随机生成下一个实数，它在[0,1)范围内。</td>
+</tr>
+<tr>
+<td><a href="http://www.runoob.com/python3/python3-func-number-seed.html" target="_blank" rel="noopener">seed([x])</a></td>
+<td>改变随机数生成器的种子seed。如果你不了解其原理，你不必特别去设定seed，Python会帮你选择seed。</td>
+</tr>
+<tr>
+<td><a href="http://www.runoob.com/python3/python3-func-number-shuffle.html" target="_blank" rel="noopener">shuffle(lst)</a></td>
+<td>将序列的所有元素随机排序</td>
+</tr>
+<tr>
+<td><a href="http://www.runoob.com/python3/python3-func-number-uniform.html" target="_blank" rel="noopener">uniform(x, y)</a></td>
+<td>随机生成下一个实数，它在[x,y]范围内。</td>
+</tr>
+</tbody>
+</table>
+<p><strong>5) 三角函数</strong></p>
+<table>
+<thead>
+<tr>
+<th>函数</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="http://www.runoob.com/python3/python3-func-number-acos.html" target="_blank" rel="noopener">acos(x)</a></td>
+<td>返回x的反余弦弧度值。</td>
+</tr>
+<tr>
+<td><a href="http://www.runoob.com/python3/python3-func-number-asin.html" target="_blank" rel="noopener">asin(x)</a></td>
+<td>返回x的反正弦弧度值。</td>
+</tr>
+<tr>
+<td><a href="http://www.runoob.com/python3/python3-func-number-atan.html" target="_blank" rel="noopener">atan(x)</a></td>
+<td>返回x的反正切弧度值。</td>
+</tr>
+<tr>
+<td><a href="http://www.runoob.com/python3/python3-func-number-atan2.html" target="_blank" rel="noopener">atan2(y, x)</a></td>
+<td>返回给定的 X 及 Y 坐标值的反正切值。</td>
+</tr>
+<tr>
+<td><a href="http://www.runoob.com/python3/python3-func-number-cos.html" target="_blank" rel="noopener">cos(x)</a></td>
+<td>返回x的弧度的余弦值。</td>
+</tr>
+<tr>
+<td><a href="http://www.runoob.com/python3/python3-func-number-hypot.html" target="_blank" rel="noopener">hypot(x, y)</a></td>
+<td>返回欧几里德范数 sqrt(x<em>x + y</em>y)。</td>
+</tr>
+<tr>
+<td><a href="http://www.runoob.com/python3/python3-func-number-sin.html" target="_blank" rel="noopener">sin(x)</a></td>
+<td>返回的x弧度的正弦值。</td>
+</tr>
+<tr>
+<td><a href="http://www.runoob.com/python3/python3-func-number-tan.html" target="_blank" rel="noopener">tan(x)</a></td>
+<td>返回x弧度的正切值。</td>
+</tr>
+<tr>
+<td><a href="http://www.runoob.com/python3/python3-func-number-degrees.html" target="_blank" rel="noopener">degrees(x)</a></td>
+<td>将弧度转换为角度,如degrees(math.pi/2) ， 返回90.0</td>
+</tr>
+<tr>
+<td><a href="http://www.runoob.com/python3/python3-func-number-radians.html" target="_blank" rel="noopener">radians(x)</a></td>
+<td>将角度转换为弧度</td>
+</tr>
+</tbody>
+</table>
+<p><strong>6) 数字常亮</strong></p>
+<table>
+<thead>
+<tr>
+<th>常量</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>pi</td>
+<td>数学常量 pi（圆周率，一般以π来表示）</td>
+</tr>
+<tr>
+<td>e</td>
+<td>数学常量 e，e即自然常数（自然常数）。</td>
+</tr>
+</tbody>
+</table>
+<h4 id="7-字符串"><a href="#7-字符串" class="headerlink" title="7. 字符串"></a>7. 字符串</h4><p><strong>1) 切片</strong></p>
+<p><code>str[start:end:step]</code> 字符串反转[::-1]  还可以用在<code>tuple</code>和<code>list</code></p>
+<p><strong>2) 获取</strong></p>
+<ul>
+<li>str[index]</li>
+<li>str.index[sub_str]</li>
+</ul>
+<p><strong>3) 判断</strong></p>
+<ul>
+<li>isalpha()<br>都是字符</li>
+<li>isdecimal()<br>都是数字</li>
+<li>islower()<br>都是小写字符</li>
+<li>isupper()<br>都是大写字符</li>
+<li>startswith(str)<br>是否以str开头</li>
+<li>endswith(str)<br>是否以str结尾</li>
+</ul>
+<p><strong>4) 查找替换</strong></p>
+<ul>
+<li>find(str, start=0, end=len(string))</li>
+<li>rfind(str, start=0, end=len(string))</li>
+<li>index(str, start=0, end=len(string))</li>
+<li>rindex(str, start=0, end=len(string))</li>
+<li>replace(old_str, new_str, num=string.count(old))</li>
+</ul>
+<p><strong>5) 拆分连接</strong></p>
+<ul>
+<li>partition(str)<br>将字符串分成三个元组（str前，str，str后）</li>
+<li>rpartition(str)</li>
+<li>split(str=””,num)<br>num有指定值时，分割num+1个字符串​</li>
+<li>splitlines()<br>按照(“\r”, “\n”, “\r\n”)分割</li>
+<li>str1 + str2</li>
+<li>str.join(seq)<br>以str作为分隔符，将seq中的所有元素合并成一个新的字符串</li>
+</ul>
+<p><strong>6) 大小写转换</strong></p>
+<ul>
+<li>lower()</li>
+<li>upper()</li>
+</ul>
+<p><strong>7) 文本对齐</strong></p>
+<p>​    长度不够时空格填充</p>
+<ul>
+<li>ljust(width)</li>
+<li>rjust(width)</li>
+<li>center(width)</li>
+</ul>
+<p><strong>8) 去除空白</strong></p>
+<ul>
+<li>lstrip()</li>
+<li>rstrip()</li>
+<li>strip()</li>
+</ul>
+<p><strong>9) 重复</strong></p>
+<ul>
+<li>* 还可以用在<code>list</code>和<code>tuple</code></li>
+</ul>
+<p><strong>10) 转换可运算类型</strong></p>
+<ul>
+<li>eval(str)</li>
+</ul>
+<p><strong>11) 转义字符</strong></p>
+<table>
+<thead>
+<tr>
+<th>转义字符</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>\(在行尾时)</td>
+<td>续行符</td>
+</tr>
+<tr>
+<td>\\</td>
+<td>反斜杠符号</td>
+</tr>
+<tr>
+<td>\‘</td>
+<td>单引号</td>
+</tr>
+<tr>
+<td>\“</td>
+<td>双引号</td>
+</tr>
+<tr>
+<td>\a</td>
+<td>响铃</td>
+</tr>
+<tr>
+<td>\b</td>
+<td>退格(Backspace)</td>
+</tr>
+<tr>
+<td>\e</td>
+<td>转义</td>
+</tr>
+<tr>
+<td>\000</td>
+<td>空</td>
+</tr>
+<tr>
+<td>\n</td>
+<td>换行</td>
+</tr>
+<tr>
+<td>\v</td>
+<td>纵向制表符</td>
+</tr>
+<tr>
+<td>\t</td>
+<td>横向制表符</td>
+</tr>
+<tr>
+<td>\r</td>
+<td>回车</td>
+</tr>
+<tr>
+<td>\f</td>
+<td>换页</td>
+</tr>
+<tr>
+<td>\oyy</td>
+<td>八进制数，yy代表的字符，例如：\o12代表换行</td>
+</tr>
+<tr>
+<td>\xyy</td>
+<td>十六进制数，yy代表的字符，例如：\x0a代表换行</td>
+</tr>
+<tr>
+<td>\other</td>
+<td>其它的字符以普通格式输出</td>
+</tr>
+</tbody>
+</table>
+<p><strong>12) 原始字符串</strong></p>
+<ul>
+<li>r/R’str’</li>
+</ul>
+<p><strong>13) 字符串格式化</strong></p>
+<table>
+<thead>
+<tr>
+<th>符   号</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>%c</td>
+<td>格式化字符及其ASCII码</td>
+</tr>
+<tr>
+<td>%s</td>
+<td>格式化字符串</td>
+</tr>
+<tr>
+<td>%d</td>
+<td>格式化整数</td>
+</tr>
+<tr>
+<td>%u</td>
+<td>格式化无符号整型</td>
+</tr>
+<tr>
+<td>%o</td>
+<td>格式化无符号八进制数</td>
+</tr>
+<tr>
+<td>%x</td>
+<td>格式化无符号十六进制数</td>
+</tr>
+<tr>
+<td>%X</td>
+<td>格式化无符号十六进制数（大写）</td>
+</tr>
+<tr>
+<td>%f</td>
+<td>格式化浮点数字，可指定小数点后的精度</td>
+</tr>
+<tr>
+<td>%e</td>
+<td>用科学计数法格式化浮点数</td>
+</tr>
+<tr>
+<td>%E</td>
+<td>作用同%e，用科学计数法格式化浮点数</td>
+</tr>
+<tr>
+<td>%g</td>
+<td>%f和%e的简写</td>
+</tr>
+<tr>
+<td>%G</td>
+<td>%f 和 %E 的简写</td>
+</tr>
+<tr>
+<td>%p</td>
+<td>用十六进制数格式化变量的地址</td>
+</tr>
+</tbody>
+</table>
+<p>格式化操作符辅助指令:</p>
+<table>
+<thead>
+<tr>
+<th>符号</th>
+<th>功能</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>*</td>
+<td>定义宽度或者小数点精度</td>
+</tr>
+<tr>
+<td>-</td>
+<td>用做左对齐</td>
+</tr>
+<tr>
+<td>+</td>
+<td>在正数前面显示加号( + )</td>
+</tr>
+<tr>
+<td><sp></sp></td>
+<td>在正数前面显示空格</td>
+</tr>
+<tr>
+<td>#</td>
+<td>在八进制数前面显示零(‘0’)，在十六进制前面显示’0x’或者’0X’(取决于用的是’x’还是’X’)</td>
+</tr>
+<tr>
+<td>0</td>
+<td>显示的数字前面填充’0’而不是默认的空格</td>
+</tr>
+<tr>
+<td>%</td>
+<td>‘%%’输出一个单一的’%’</td>
+</tr>
+<tr>
+<td>(var)</td>
+<td>映射变量(字典参数)</td>
+</tr>
+<tr>
+<td>m.n.</td>
+<td>m 是显示的最小总宽度,n 是小数点后的位数(如果可用的话)</td>
+</tr>
+</tbody>
+</table>
+<p>Python2.6 开始，新增了一种格式化字符串的函数 <a href="http://www.runoob.com/python/att-string-format.html" target="_blank" rel="noopener">str.format()</a>，它增强了字符串格式化的功能。</p>
+<p><strong>14) Unicode字符串</strong></p>
+<p>在Python2中，普通字符串是以8位ASCII码进行存储的，而Unicode字符串则存储为16位unicode字符串，这样能够表示更多的字符集。使用的语法是在字符串前面加上前缀 <strong>u</strong>。</p>
+<h4 id="8-列表"><a href="#8-列表" class="headerlink" title="8. 列表"></a>8. 列表</h4><p><strong>1) 添加</strong></p>
+<ul>
+<li>insert(索引, 数据)<br>指定的位置前有空元素时会补位</li>
+<li>append(数据)<br>将数据作为整体追加到列表</li>
+<li>extend(iterable)<br>将可迭代数据拆包后追加到尾部，相当于list1 += iterable</li>
+</ul>
+<p><strong>2) 删除</strong></p>
+<ul>
+<li>del 列表[索引]<br>直接从内存中删除，同del() 还可以用在其它类型数据</li>
+<li>列表.remove(数据)<br>删除第一次出现的元素</li>
+<li>列表.pop(索引)<br>不指定索引时，删除最后一个元素</li>
+<li>列表.clear()<br>清空列表，列表本身还在</li>
+</ul>
+<p><strong>3) 修改</strong></p>
+<ul>
+<li>列表[索引] = 数据<br>索引不存在会报错</li>
+</ul>
+<p><strong>4) 查询</strong></p>
+<ul>
+<li>列表[索引]</li>
+<li>列表.index(数据)<br>查询第一次出现的元素的位置.没有会报错</li>
+<li>列表.count(数据)</li>
+<li>if 数据 in 列表</li>
+<li>len(列表)</li>
+</ul>
+<p><strong>5) 排序</strong></p>
+<ul>
+<li>列表.sort()<br>默认升序，列表.sort(reverse=True) 降序</li>
+<li>列表.reverse()</li>
+</ul>
+<h4 id="9-元组"><a href="#9-元组" class="headerlink" title="9. 元组"></a>9. 元组</h4><blockquote>
+<p>只包含一个元素时，需要用逗号隔开</p>
 </blockquote>
+<ul>
+<li>查询<ul>
+<li>元组[索引]</li>
+<li>元组.index(数据)</li>
+<li>元组.count(数据)</li>
+<li>len(列表)</li>
+<li>if 数据 in 元组</li>
+</ul>
+</li>
+</ul>
+<p>####10. 字典</p>
+<p><strong>1) 添加</strong></p>
+<ul>
+<li>字典[键] = 数据</li>
+</ul>
+<p><strong>2) 删除</strong></p>
+<ul>
+<li>del 字典[键]</li>
+<li>字典.pop(键)<br>pop(键, None) 键不存在时不报错，第二个参数为具体的某个值时，会在键不存在时返回该值</li>
+<li>字典.clear()</li>
+</ul>
+<p><strong>3) 修改</strong></p>
+<ul>
+<li>字典[键] = 数据</li>
+<li>字典.get(键)<br>键值不存在不会报错</li>
+<li>字典.keys()</li>
+<li>字典.values()</li>
+<li>字典.items()</li>
+</ul>
+<h4 id="11-语句"><a href="#11-语句" class="headerlink" title="11. 语句"></a>11. 语句</h4><p><strong>1)  条件控制</strong></p>
+<ul>
+<li><code>if</code></li>
+<li><code>if else</code></li>
+<li><code>if elif else</code></li>
+<li><code>x if ... else ...</code></li>
+</ul>
+<p><strong>2) 循环语句</strong></p>
+<ul>
+<li><p><code>while</code><br><code>while ... else...</code></p>
+</li>
+<li><p><code>for</code></p>
+<p><code>for ... in...else...</code></p>
+</li>
+<li><p>循环控制</p>
+<p><code>break</code> 和<code>continue</code></p>
+</li>
+</ul>
+<h4 id="12-常用函数"><a href="#12-常用函数" class="headerlink" title="12. 常用函数"></a>12. 常用函数</h4><p><strong>1) len()</strong></p>
+<p><strong>2) max()</strong></p>
+<p><strong>3) min()</strong></p>
+<p><strong>4) sum()</strong></p>
+<h4 id="13-可变与不可变类型"><a href="#13-可变与不可变类型" class="headerlink" title="13. 可变与不可变类型"></a>13. 可变与不可变类型</h4><p><strong>1) 可变类型</strong><br>可以被修改，list，dict，set</p>
+<p><strong>2) 不可变类型</strong><br>不可以被修改，str，int，float，bool，tuple</p>
+<p><strong>3) 注意</strong><br>对可变类型与不可变类型通过函数操作时，需要开辟新的空间，可变类型原空间数据不变<br>对可变类型调用相应的方法进行操作时，不会重新分配空间，原数据发生变化<br>对不可变类型调用相应方法操作时，需要重新分配空间<br>如：lists = [6, 2, 3, 5] sort(lists) 返回 [2, 3, 5, 6] lists不变 lists.sort() 无返回 lists 变成 [2, 3, 5, 6]</p>
+<h4 id="14-函数"><a href="#14-函数" class="headerlink" title="14. 函数"></a>14. 函数</h4><ul>
+<li>参数必须使用关键字<br>def func(a, *,name) 函数在调用时 name参数必须以关键字参数传入</li>
+<li>参数定义时出现的位置<br>位置参数 &gt; *args &gt; 关键字参数 &gt; **kwargs （如果关键字与kwargs中的键值不重复，可以将关键字参数放在kwargs参数后）</li>
+<li>匿名函数<br>lambda 参数: 表达式 lambda 只是一个表达式，而不是一个语句块</li>
+</ul>
+<h4 id="15-文件"><a href="#15-文件" class="headerlink" title="15. 文件"></a>15. 文件</h4><p><strong>1) 打开文件</strong></p>
+<p>open(file_name, mode)</p>
+<ul>
+<li>访问模式<ul>
+<li>r<br>只读，文件指针在文件开头，默认模式</li>
+<li>w<br>只写，存在时覆盖，不存在时创建新文件</li>
+<li>a<br>追加模式，文件不存在时创建文件</li>
+<li>rb</li>
+<li>wb</li>
+<li>ab</li>
+<li>r+</li>
+<li>w+</li>
+<li>a+</li>
+<li>rb+</li>
+<li>wb+</li>
+<li>ab+</li>
+<li>总结<br>文件不存在时创建文件，w， w+，a，a+，wb，wb+，ab，ab+</li>
+</ul>
+</li>
+</ul>
+<p><strong>2) 读取数据</strong></p>
+<ul>
+<li>read()<br>f.read(num) 不写参数时表示读取所有的数据</li>
+<li>readlines()<br>f.readlines() 按照行一次性读取所有的数据，返回的是一个列表</li>
+<li>readline()<br>一次读取一行数据</li>
+</ul>
+<p><strong>3) 写入数据</strong></p>
+<ul>
+<li>write()</li>
+</ul>
+<p><strong>4) 关闭文件</strong></p>
+<ul>
+<li>f.close()</li>
+</ul>
+<p><strong>5) 文件定位读写</strong></p>
+<ul>
+<li>tell() 获取当前位置 seek(offset, from) 设置位置</li>
+<li>offset：偏移量</li>
+<li>from：方向 0 表示文件开头 1 表示当前位置 2 表示文件末尾</li>
+</ul>
+<p><strong>6) os 文件操作</strong></p>
+<ul>
+<li>文件重命名<br>os.rename(需要修改的文件, 新的文件名)</li>
+<li>删除文件<br>os.remove(文件)</li>
+<li>创建文件夹<br>os.mkdir(文件夹名)</li>
+<li>获取当前目录<br>os.getcwd()</li>
+<li>改变默认目录<br>os.chdir(“test”) 跳转到当前路径的test子目录中</li>
+<li>获取目录列表<br>os.listdir()</li>
+<li>删除文件夹<br>os.rmdir() 目录非空</li>
+<li>判断文件是否存在<br>os.path.exists(文件)</li>
+</ul>
 
       
     </div>
@@ -441,9 +1144,9 @@
       
         <div class="post-tags">
           
-            <a href="/tags/Python数据类型/" rel="tag"># Python数据类型</a>
-          
             <a href="/tags/Python/" rel="tag"># Python</a>
+          
+            <a href="/tags/Python基础/" rel="tag"># Python基础</a>
           
         </div>
       
@@ -456,18 +1159,14 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2017/01/10/py2-py3/" rel="next" title="从Python2到Python3">
-                <i class="fa fa-chevron-left"></i> 从Python2到Python3
-              </a>
-            
           </div>
 
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/2017/01/21/魔术属性/" rel="prev" title="魔术属性">
-                魔术属性 <i class="fa fa-chevron-right"></i>
+              <a href="/2016/03/11/python_other/" rel="prev" title="Python容易被忽略的点">
+                Python容易被忽略的点 <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
@@ -612,7 +1311,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#Python中的数字"><span class="nav-number">1.</span> <span class="nav-text">Python中的数字</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Python中的进制"><span class="nav-number">2.</span> <span class="nav-text">Python中的进制</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#关于除法"><span class="nav-number">3.</span> <span class="nav-text">关于除法</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#内置数学工具"><span class="nav-number">4.</span> <span class="nav-text">内置数学工具</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#设置全局精度"><span class="nav-number">5.</span> <span class="nav-text">设置全局精度</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#小数上下文管理器"><span class="nav-number">6.</span> <span class="nav-text">小数上下文管理器</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#分数类型"><span class="nav-number">7.</span> <span class="nav-text">分数类型</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#1-Python中的编码"><span class="nav-number">1.</span> <span class="nav-text">1. Python中的编码</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-设置文件可执行"><span class="nav-number">2.</span> <span class="nav-text">2. 设置文件可执行</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3-语法规则"><span class="nav-number">3.</span> <span class="nav-text">3. 语法规则</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#4-数据类型"><span class="nav-number">4.</span> <span class="nav-text">4. 数据类型</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#6-数字-Number"><span class="nav-number">5.</span> <span class="nav-text">6. 数字(Number)</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#7-字符串"><span class="nav-number">6.</span> <span class="nav-text">7. 字符串</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#8-列表"><span class="nav-number">7.</span> <span class="nav-text">8. 列表</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#9-元组"><span class="nav-number">8.</span> <span class="nav-text">9. 元组</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#11-语句"><span class="nav-number">9.</span> <span class="nav-text">11. 语句</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#12-常用函数"><span class="nav-number">10.</span> <span class="nav-text">12. 常用函数</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#13-可变与不可变类型"><span class="nav-number">11.</span> <span class="nav-text">13. 可变与不可变类型</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#14-函数"><span class="nav-number">12.</span> <span class="nav-text">14. 函数</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#15-文件"><span class="nav-number">13.</span> <span class="nav-text">15. 文件</span></a></li></ol></div>
             
 
           </div>
